@@ -52,6 +52,9 @@ const navigate = useNavigate();
             </Link>
           </li>
           <li><Link to = "/connections">Connections</Link></li>
+          <li>
+                <Link to="/premium">Premium</Link>
+              </li>
           <li><Link to = "/requests">Pending Requests</Link></li>
           <li><a onClick={ handleLogout }>Logout</a></li>
         </ul>
